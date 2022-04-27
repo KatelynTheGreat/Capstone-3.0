@@ -1,0 +1,154 @@
+html{
+    max-width: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
+    overflow: hidden;
+    height: 100%;
+}
+*{
+    
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+
+#adClicks{
+    position: relative;
+    left: 1680px;
+    bottom: 300px;
+    width: 250px;
+    height: 420px;
+}
+
+
+
+body{
+    background-image: url("https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2016/06/xpbliss_7.jpg"); 
+    background-color: #cccccc; 
+    height: 800px; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    margin: 0%;
+    padding: 0%;
+    width: 200px;
+}
+
+
+#CalIcon{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/512/Calculator_512.png");
+}
+#CalIcon:hover{
+    cursor: pointer;
+}
+
+.desmos{
+    position: relative;
+    top: 50px;
+    left: 63px;
+}
+
+#CitationIcon{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("images/list+pages+paper+icon+icon-1320196644682582495.png");
+}
+#CitationIcon:hover{
+    cursor: pointer;
+}
+
+#GeoIcon{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("images/176244.png");
+}
+#GeoIcon:hover{
+    cursor: pointer;
+}
+.BasicCal{
+    border: 2px black;
+}
+.BasicCal > h2{
+    position: relative;
+    top: 20px;
+    left:50px;
+}
+.BasicCal > button{
+    position: relative;
+    left: 80px;
+    top: 20px;
+}
+
+.CitationA > h2{
+    position: relative;
+    left:50px;
+    top: 20px;
+}
+.CitationA > button{
+    position: relative;
+    left: 80px;
+    top: 20px;
+}
+
+.geometryE > h2{
+    position: relative;
+    left:50px;
+    top: 20px;
+}
+.geometryE > button{
+    position: relative;
+    left: 80px;
+    top: 20px;
+}
+.geometryE:hover{
+    cursor: pointer;
+}
+.bottomBar{
+    background-color: black;
+    width:2000px;
+    height: 60px;
+    position: relative;
+    top: 185px;
+    border: black;
+}
+
+#windowLogo{
+    position: relative;
+    
+    width: 60px;
+    height: 60px;
+}
+
+#MagnifyGlass{
+    position: relative;
+    bottom: 3px;
+    left: 25px;
+    width: 50px;
+    height: 50px;
+}
+#chromeApp{
+    position: relative;
+    left: 50px;
+    width: 60px;
+    height: 60px;
+}
+
+.pea{
+    position: relative;
+    left: 73px;
+    top: 90px;
+}
+
+#info{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    left: 75px;
+}
+

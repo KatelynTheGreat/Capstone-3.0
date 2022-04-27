@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sendgmail.css">
+	<title></title>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>  
+	<script type="text/javascript">
+		
+		function sendEmail() {
+			Email.send({
+				Host: "smtp.gmail.com",
+				Username : "zombieapocalypsesends@gmail.com",
+				Password : "Tardis3663",
+				To : document.getElementById("toT").value,
+				From : "zombieapocalypsesends@gmail.com",
+				Subject : document.getElementById("subjectT").value,
+				Body : document.getElementById("bodyT").value,
+			})
+			.then(function(message){
+				alert("mail sent successfully");
+			});
+		}
+	</script>
+</head>
+<body>  
+	
+<div class="overlay">
+	<h2>To:</h2>
+	<input type="text" id="toT" name="to" >
+	<h2>Subject</h2>
+	<input type="text" id="subjectT" name="subject">
+	<h2>Body</h2>
+	<input type="text" id="bodyT" name="body">
+	<form method="post">
+		<br>
+		<input type="button" value="Send Email" onclick="sendEmail()"/>
+	</form>
+</div>
+
+
+<div class="container">
+	<video autoplay muted loop id="myVideo">
+		<source src="pexels-nikunj-patel-5441677.mp4" type="video/mp4">
+	</video>
+</div>
+
+	
+</body>
+</html>

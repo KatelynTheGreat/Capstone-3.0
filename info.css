@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    color: white;
+    background-color: teal;
+}
+#alicon{
+position: relative;
+top: 100px;
+left: 233px;
+}
+#alicon3{
+    position: relative;
+    top: 250px;
+    right: 440px; 
+}

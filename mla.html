@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="backbutton" onclick="window.location = 'main.html'">Back</button>
+    
+    <img src="https://cms.bibliography.com/wp-content/uploads/2020/02/Citation_Diagram_ex2.png" width="500px">
+    <h1>MLA Citation Creation</h1>
+
+    <select name="Citation" id="Citation">
+        <option value="mla">MLA</option>
+        <option value="APA">APA</option>
+    </select>
+
+    <h2>Author</h2>
+    <input id="AuthorInput" type="text">
+    <h2>Title Of Source</h2>
+    <input id="TitleInput"type="text">
+    <h2>Title Of Container</h2>
+    <input id="TitleContainerInput" type="text">
+    <h2>Publisher</h2>
+    <input id="PublisherInput" type="text">
+    <h2>Publication Date</h2>
+    <input id="DateInput" type="date">
+    <h2>Location/Page Number</h2>
+    <input id="LocationInput" type="text">
+    
+    <button id="CitationButton" onclick="Citation()">Citation</button>
+    <h3 id="endResult">Citation Here</h3>
+   
+   
+    <script src="mla.js"></script>
+</body>
+</html>

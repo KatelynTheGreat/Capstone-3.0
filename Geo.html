@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Geo.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="window.location = 'Main.html'">Back</button>
+
+    <h1 id="title">Basic Calculations</h1>
+   <div class="Allcalcs">
+       <div class="Circle-Circumference">
+        <h2 id="circuButton">Circle-Circumference</h2>
+        <div id="cle">
+            <h3 id="inputOne">Value/Values</h3>
+            <h4>R = Radius</h4>
+            <input id="radius">
+            <h2 id="CCresult"></h2>
+       <button id="Calculate" onclick="CalculateCir()">Calculate</button>
+        </div>
+    </div>
+    
+    <div class="CircleArea">
+        <h2 id="circuAButton">Circle-Area</h2>
+        <div id="cleA">
+            <h3 id="inputOne">Value/Values</h3>
+            <h4>R = Radius</h4>
+            <input id="radiusCA" type="number">
+            <h2 id="ACCresult"></h2>
+       <button id="Calculate" onclick="CalculateCirA()">Calculate</button>
+        </div>
+    </div>
+    <div class="RA">
+        <h2 id="RecButton">Rectangle-Area</h2>
+        <div id="cleA">
+            <h3 id="inputOne">Value/Values</h3>
+            <h4>W = Width
+                L = Length
+            </h4>
+            <p>W</p><input id="LengthRA" type="number">
+            <p>L</p><input id="WidthRA" type="number">
+            <h2 id="RACresult"></h2>
+       <button id="Calculate" onclick="CalculateRecA()">Calculate</button>
+        </div>
+    </div>
+    <div class="RD">
+        <h2 id="RecButton">Rectangle-Diagonal</h2>
+        <div id="cleA">
+            <h3 id="inputOne">Value/Values</h3>
+            <h4>W = Width
+                L = Length
+            </h4>
+            <p>W</p><input id="LengthRD" type="number">
+            <p>L</p><input id="WidthRD" type="number">
+            <h2 id="RDCresult"></h2>
+       <button id="Calculate" onclick="CalculateRecD()">Calculate</button>
+        </div>
+    </div>
+   </div>
+    
+
+
+   
+
+    
+
+   
+
+    <script src="geo.js"></script>
+</body>
+</html>

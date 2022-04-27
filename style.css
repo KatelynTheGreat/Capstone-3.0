@@ -1,0 +1,25 @@
+*{
+    text-align: center;
+}
+
+img{
+    position: relative;
+    left: 0px;
+}
+
+#CitationButton{
+    position: relative;
+    top: 100px;
+    right: 90px;
+
+}
+#LocationInput{
+    position: relative;
+    left: 30px;
+}
+
+#backbutton{
+position: relative;
+right: 650px;
+bottom: 200px;
+}
