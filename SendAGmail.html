@@ -29,11 +29,11 @@
 	
 <div class="overlay">
 	<h2>To:</h2>
-	<input type="text" id="toT" name="to" >
-	<h2>Subject</h2>
-	<input type="text" id="subjectT" name="subject">
-	<h2>Body</h2>
-	<input type="text" id="bodyT" name="body">
+	<textarea id="toT" name="toT" rows="2" cols="20"></textarea>
+	<h2>Subject:</h2>
+	<textarea id="subjectT" name="subjectT" rows="4" cols="20"></textarea>
+	<h2>Body:</h2>
+	<textarea id="bodyT" name="bodyT" rows="4" cols="50"></textarea>
 	<form method="post">
 		<br>
 		<input type="button" value="Send Email" onclick="sendEmail()"/>

@@ -1,0 +1,40 @@
+*{
+    background-color: black;
+}
+
+h1{
+    position: relative;
+    color: white;
+    text-align: center;
+}
+h2{
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+
+button{
+    color: black;
+    background-color:white;
+    position: relative;
+    left: 900px;
+}
+
+#checl{
+    position: relative;
+    bottom: 100px;
+}
+
+
+#screamHere{
+    background-color: white;
+    position: relative;
+    left: 850px;
+}
+
+
+
+
+
+
