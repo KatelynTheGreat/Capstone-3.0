@@ -134,7 +134,7 @@ body{
 }
 #chromeApp{
     position: relative;
-    left: 50px;
+    left: 20px;
     width: 60px;
     height: 60px;
 }
@@ -149,6 +149,23 @@ body{
     position: relative;
     width: 60px;
     height: 60px;
-    left: 75px;
+    left: 10px;
 }
+
+#gmailIt{
+    position: relative;
+    bottom: 2px;
+    left: 300px;
+    width: 55px;
+    height: 55px;
+}
+
+#screamVoid{
+    position: relative;
+    bottom: 2px;
+    left: 300px;
+    width: 55px;
+    height: 55px;
+}
+
 
